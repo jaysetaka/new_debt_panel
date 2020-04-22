@@ -1,0 +1,56 @@
+{
+	"javascript": [
+		"./public/vendors/jquery/jquery.min.js",
+		"./public/vendors/bootstrap/js/modal.js",
+		"./public/vendors/bootstrap/js/button.js",
+		"./public/vendors/bootstrap/js/dropdown.js",
+		"./public/vendors/bootstrap/js/collapse.js",
+		"./public/vendors/bootstrap/js/tooltip.js",
+		"./public/vendors/bootstrap/js/popover.js",
+		"./public/vendors/bootstrap-tour/build/js/bootstrap-tour.js",
+		"./public/vendors/underscore/underscore-min.js",
+		"./public/vendors/backbone/backbone.js",
+		"./public/vendors/backbone.paginator/lib/backbone.paginator.min.js",
+		"./public/vendors/bootstrap-clickonmouseover/bootstrap.clickonmouseover.js",
+		"./public/vendors/magnific-popup/dist/jquery.magnific-popup.min.js",
+		"./public/vendors/mprogress/build/js/mprogress.min.js",
+		"./public/vendors/jsmart/jsmart.js",
+		"./public/scripts/functions.js",
+		"./public/scripts/app.js",
+		"./public/scripts/app/helper.js",
+		"./public/scripts/app/view_stack.js",
+		"./public/scripts/app/settings.js",
+		"./public/scripts/app/local_storage.js",
+		"./public/scripts/app/template_manager.js",
+		"./public/scripts/app/i18n.js",
+		"./public/scripts/app/exchange.js",
+
+		"./public/scripts/app/abstract/",
+		"./public/scripts/app/models/",
+		"./public/scripts/app/collections/",
+
+		"./public/scripts/app/views/dialogs/",
+		"./public/scripts/app/views/widgets/",
+		"./public/scripts/app/views/parts/",
+		"./public/scripts/app/views/pages/",
+		"./public/scripts/app/views/tours/",
+		"./public/scripts/app/views/charts/",
+
+		"./public/scripts/app/views/header.js",
+
+		"./public/scripts/app/log.js",
+		"./public/scripts/app/router.js",
+		"./public/scripts/setup.js"
+	],
+	"css": [
+		"./public/vendors/mprogress/build/css/mprogress.css",
+		"./public/vendors/magnific-popup/dist/magnific-popup.css",
+		"./public/vendors/bootstrap/dist/css/bootstrap.min.css",
+		"./public/vendors/font-awesome/css/font-awesome.css",
+		"./public/vendors/bootstrap-tour/build/css/bootstrap-tour.min.css",
+		"./public/vendors/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
+		"./public/css/main.css",
+		"./public/css/parts/",
+		"./public/css/parts/dialogs/"
+	]
+}

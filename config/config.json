@@ -1,0 +1,87 @@
+{
+  "development": {
+    "port": 8080,
+    "database": {
+      "dialect": "sqlite",
+      "username": "root",
+      "password": "root",
+      "database": "walletjs",
+      "host": "127.0.0.1",
+      "storage": "data/database.sqlite"
+    },
+    "smtp": {
+      "host": "mailtrap.io",
+      "username": "38298e68fa9771771",
+      "password": "ab75f0affdd61a",
+      "port": "465"
+    },
+    "openexchangerates": {
+      "use_env_variable": false,
+      "app_id": "OPENEXCHANGERATES_APP_ID",
+      "update_interval": 86400
+    },
+    "default_from_email": "noreply@dimeshift.com",
+    "site_path": "http://localhost:8080/",
+    "minify": {
+      "javascript": true,
+      "css": true
+    }
+  },
+  "electron": {
+    "port": 0,
+    "database": {
+      "dialectModulePath": "../../includes/sqlite3.js",
+      "dialect": "sqlite",
+      "storage": "data/database.sqlite"
+    },
+    "smtp": null,
+    "openexchangerates": null,
+    "default_from_email": null,
+    "site_path": null,
+    "minify": {
+      "javascript": true,
+      "css": true
+    }
+  },
+  "test": {
+    "port": 8081,
+    "database": {
+      "dialect": "sqlite",
+      "storage": "data/database.sqlite"
+    },
+    "smtp": null,
+    "openexchangerates": {
+      "app_id": "234234234234234234234",
+      "update_interval": 86400
+    },
+    "default_from_email": "noreply@dimeshift.com",
+    "site_path": "http://localhost:8080/",
+    "minify": {
+      "javascript": false,
+      "css": false
+    }
+  },
+  "heroku": {
+    "database": {
+      "use_env_variable": "DATABASE_URL"
+    },
+    "smtp": {
+      "use_env_variables": true,
+      "host": "SPARKPOST_SMTP_HOST",
+      "username": "SPARKPOST_SMTP_USERNAME",
+      "password": "SPARKPOST_SMTP_PASSWORD",
+      "port": "SPARKPOST_SMTP_PORT"
+    },
+    "openexchangerates": {
+      "use_env_variable": true,
+      "app_id": "OPENEXCHANGERATES_APP_ID",
+      "update_interval": 86400
+    },
+    "default_from_email": "noreply@dimeshift.com",
+    "site_path": "http://dimeshift.com/",
+    "minify": {
+      "javascript": true,
+      "css": true
+    }
+  }
+}
