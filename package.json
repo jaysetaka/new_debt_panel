@@ -69,7 +69,7 @@
     "grunt-nodemon": "^0.4.0",
     "grunt-run": "^0.8.1",
     "hippie": "^0.5.2",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "open": "^6.1.0"
   }
 }
